@@ -3,6 +3,12 @@ layout: landing
 title: Home
 permalink: /
 cta-link: "/courses/get-your-free-guide-on-less-is-more"
+problem-title-one: Hate the long working hours?
+problem-title-two: Feel empty after a day's work.
+agitate-title: It Doesn't have to be that way
+solution-title-one: Get back your quality time!
+solution-title-two: And extract satisfaction at work.
+cta-text: Click here for your free 7-part guide to claiming your time
 ---
 You took the mandatory med courses. You spent quality time diligently following what your teachers taught you. You are not deficient in skills. You were different from your techy friends. You wanted to make an impact in the lives of people.
 

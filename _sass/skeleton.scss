@@ -1,0 +1,72 @@
+@import "skeleton/loader";
+
+// Add custom styles here
+.nav {
+  padding: 1em 0.5em;
+  margin-bottom: 2rem;
+  .logo {
+    text-align: left;
+    width: auto;
+    img {
+      width: 60px;
+      margin: 0.5em;
+    }
+  }
+  .page-links {
+    text-align: right;
+    display: inline-block;
+    font-size: 1em;
+    .page-link {
+      text-decoration: none;
+      padding-left: 1em;
+    }
+  }
+}
+
+.banner {
+  padding: 1em 0.5em;
+  margin: 2em 0.5em;
+  text-align: center;
+  width: auto;
+  background-color: #fefefe;
+  img {
+    // border: 0.2em solid $metallic-seaweed;
+    display: none;
+  }
+  border: 0.2em solid $metallic-seaweed;
+  a {
+    text-decoration: none;
+    font-family: $heading-family;
+    .problem-title {
+      color: $onyx;
+      margin-bottom: 1.75rem;
+      p {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 0.25rem;
+      }
+    }
+    .agitate-title {
+      font-family: $font-family;
+      color: $metallic-seaweed;
+      margin: 2rem;
+      span {
+        text-transform: uppercase;;
+        font-size: 1.6rem;
+        letter-spacing: 0.75rem;
+      }
+    }
+    .solution-title {
+      font-family: $heading-family;
+      color: $onyx;
+      margin-bottom: 1.5rem;
+      p {
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+      }
+    }
+  }
+}

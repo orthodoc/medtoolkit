@@ -39,3 +39,4 @@ exclude:
   - s3_website.yml
   - License
   - README.md
+  - node_modules

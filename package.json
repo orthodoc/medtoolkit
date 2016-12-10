@@ -1,0 +1,18 @@
+{
+  "name": "MedToolkit",
+  "version": "0.0.1",
+  "description": "MedToolkit: An orthodoc project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/medkit/issues"
+  },
+  "license": "COMMERCIAL",
+  "private": true,
+  "engines": "5.11.1",
+  "devDependencies": {
+    "skeleton-sass-official": "^3.0.2"
+  }
+}

@@ -1,10 +1,24 @@
 <div class="cta-banner">
   <div class="container">
     <div class="row">
-      <div class="eleven columns">
-        <div class="banner">
+      <div class="ten columns offset-by-two">
+        <div class="banner u-max-full-width">
           <a href="{{ page.cta-link | absolute_url }}">
             <img class="u-max-full-width" src="/assets/images/landing_headlines.png" alt="Landing page banner">
+            <div class="problem-title">
+              <p>{{ page.problem-title-one }}</p>
+              <p>{{ page.problem-title-two }}</p>
+            </div>
+            <div class="agitate-title">
+              <span>{{ page.agitate-title }}</span>
+            </div>
+            <div class="solution-title">
+              <p>{{ page.solution-title-one }}</p>
+              <p>{{ page.solution-title-two }}</p>
+            </div>
+            <div class="cta-text">
+              <span>{{ page.cta-text }}</span>
+            </div>
           </a>
         </div>
       </div>
