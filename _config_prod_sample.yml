@@ -1,0 +1,5 @@
+environment: production
+url: "<url of the project>"
+
+# Google analytics
+ga: XX-XXXXXXXX-X

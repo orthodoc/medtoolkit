@@ -1,9 +1,41 @@
 # Site settings
-title: "Jekyll + Skeleton CSS"
-description: "A basic Jekyll site incorporating the Skeleton responsive CSS boilerplate."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-author: "Site Author"
+environment: development
+title: The Medical Toolkit
+email: bdbaruah@orthodoc.in
+description: A Doctor's Ultimate Survival Guide in the Digital Space
+logo: "/assets/images/logo.png"
+baseurl: ""
+
+name: 'Biswajit Baruah'
+bio: >
+  Hip Replacement Surgeon from Chennai.
+  Developer of Diagnox mobile app.
+  Wannabe long distance runner.
+author_image: "/assets/images/author.png"
+twitter_username: 0rthodoc
+github_username:  orthodoc
 
 # Build settings
 markdown: kramdown
+kramdown:
+  parse_block_html: true
+gems:
+  - jekyll-feed
+
+collections:
+  courses:
+    output: true
+    permalink: /courses/:path/
+    title: Courses
+  articles:
+    output: true
+    permalink: /articles/:path/
+    title: Articles
+include: ["_pages"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - s3_website_sample.yml
+  - s3_website.yml
+  - License
+  - README.md

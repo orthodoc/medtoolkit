@@ -1,1 +1,9 @@
 _site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+comments.html
+.env
+CNAME
+s3_website.yml
+_config_prod.yml
