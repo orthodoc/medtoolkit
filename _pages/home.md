@@ -20,7 +20,6 @@ You don't have to tread the lonely path anymore! Welcome.
 
 [Start here.](/courses/get-your-free-guide-on-less-is-more)
 
----------------------
 {% if site.articles[0] %}
 #### Articles that may interest you
 

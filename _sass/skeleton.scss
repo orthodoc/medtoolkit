@@ -1,6 +1,15 @@
 @import "skeleton/loader";
 
 // Add custom styles here
+.container {
+  padding: 0;
+}
+.content {
+  p {
+    padding: 0 1rem;
+    text-align: justify;
+  }
+}
 .nav {
   padding: 1em 0.5em;
   margin-bottom: 2rem;
@@ -70,3 +79,56 @@
     }
   }
 }
+
+.footer {
+  color: #4d4d4d;
+  a {
+    text-decoration: none;
+  }
+  .copyright-content {
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .madeby-content {
+    //margin: 1rem;
+    text-align: center;
+  }
+}
+
+/* Media Queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .content {
+    p {
+      padding: 0 1rem;
+      text-align: left;
+    }
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .footer {
+    .copyright-content, .madeby-content {
+      border-top: 1px solid #e5e5e5;
+      padding-top: 2rem;
+      margin: 1rem;
+    }
+    .copyright-content {
+      text-align: left;
+    }
+    .madeby-content {
+      text-align: right;
+    }
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
