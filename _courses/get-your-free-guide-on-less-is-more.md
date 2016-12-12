@@ -25,15 +25,15 @@ So don't flog yourself anymore. Beat the system. And come out strong. That is wh
 
 Hear how some feel after taking the course:
 
-> Thanks a lot for the advice and information. It was so real that I felt like someone has already told you what problem I face. It is really helpful --- Dr Mir
+>> Thanks a lot for the advice and information. It was so real that I felt like someone has already told you what problem I face. --- Dr Mir
 
-> Really enjoying this and looking forward to the next one already, keep them coming --- Dr Niba
+>> Really enjoying this and looking forward to the next one already, keep them coming --- Dr Niba
 
-> Enjoying this Dr Biswajit and nodding away as I read every line --- Dr Murali
+>> That was quite quick and practical --- Dr Umang
 
-> That was quite quick and practical --- Dr Umang
+>> Enjoying this Dr Biswajit and nodding away as I read every line --- Dr Murali
 
-> Thank you for the inspiration --- Dr Matang
+>> Thank you for the inspiration --- Dr Matang
 
 Here's a gist of what you will get when you sign up:
 

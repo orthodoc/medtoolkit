@@ -9,6 +9,10 @@
     padding: 0 1rem;
     text-align: justify;
   }
+  .container {
+    .author-block {
+    }
+  }
 }
 .nav {
   padding: 1em 0.5em;
@@ -58,7 +62,7 @@
     }
     .agitate-title {
       font-family: $font-family;
-      color: $metallic-seaweed;
+      color: $onyx;
       margin: 2rem;
       span {
         text-transform: uppercase;;
@@ -77,11 +81,31 @@
         line-height: 2rem;
       }
     }
+    .cta-text {
+      color: $metallic-seaweed;
+      font-weight: 400;
+    }
+  }
+}
+
+.author-block {
+  text-align: center;
+  .author-image {
+    img {
+      width: 5em;
+      height: 5em;
+      border-radius: 50%;
+      display: inline;
+    }
   }
 }
 
 .footer {
-  color: #4d4d4d;
+  .footer-content {
+    border-top: 1px solid #e5e5e5;
+  }
+  font-size: 1.2rem;
+  color: $onyx;
   a {
     text-decoration: none;
   }
@@ -109,11 +133,12 @@
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+  .author-block {
+    text-align: left;
+  }
   .footer {
     .copyright-content, .madeby-content {
-      border-top: 1px solid #e5e5e5;
       padding-top: 2rem;
-      margin: 1rem;
     }
     .copyright-content {
       text-align: left;
@@ -125,10 +150,15 @@
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
