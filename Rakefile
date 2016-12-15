@@ -20,7 +20,7 @@ end
 
 desc "Test the build"
 task :test => [:build] do
-  sh "htmlproofer --url-ignore \"/linkedin.com/\" ./_site"
+  sh "bundle exec htmlproofer --url-ignore \"/linkedin.com/\" ./_site"
 end
 
 desc "Publish to S3"

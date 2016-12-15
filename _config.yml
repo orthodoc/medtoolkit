@@ -47,6 +47,7 @@ exclude:
   - package.json
   - index_old.html
   - Rakefile
+  - vendor
 
 # seo
 author: Dr Biswajit Baruah
