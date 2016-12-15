@@ -1,5 +1,3 @@
-require 'html-proofer'
-
 desc "Clean the old builds"
 task :clean do
   sh "bundle exec jekyll clean"

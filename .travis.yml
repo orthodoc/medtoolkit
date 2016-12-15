@@ -2,9 +2,15 @@ language: ruby
 rvm:
 - 2.3.1
 
+before_script:
+  # install Gulp 4 CLI tools globally from 4.0 GitHub branch
+  - npm install skeleton-sass-official -g
+
+cache: bundler
+
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: rake test
+script: bundle exec rake -t
 
 env:
   global:
