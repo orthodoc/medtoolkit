@@ -1,10 +1,10 @@
 # Site settings
-environment: development
 title: The Medical Toolkit
 email: bdbaruah@orthodoc.in
 description: A Doctor's Ultimate Survival Guide in the Digital Space
 logo: "/assets/images/logo.png"
 baseurl: ""
+url: "https://themedicaltoolkit.com"
 
 name: 'Dr. Biswajit Baruah'
 bio: >
@@ -14,6 +14,7 @@ bio: >
 author_image: "/assets/images/author.png"
 twitter_username: 0rthodoc
 github_username:  orthodoc
+ga: UA-88248597-1
 
 # Build settings
 markdown: kramdown

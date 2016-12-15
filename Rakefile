@@ -1,9 +1,35 @@
 require 'html-proofer'
 
-task :test do
+desc "Clean the old builds"
+task :clean do
   sh "bundle exec jekyll clean"
-  sh "bundle exec jekyll build --config=_config.yml,_config_prod.yml"
+end
+
+desc "Build the site"
+task :build => [:clean] do
+  puts "Building site"
+  out = `bundle exec jekyll build --config=_config.yml`
+
+  if $?.to_i == 0
+    puts  "Building succeeded"
+  else
+    abort "Building failed: #{$?.to_i}\n" +
+          "#{out}\n"
+  end
+end
+
+desc "Test the build"
+task :test => [:build] do
   HTMLProofer.check_directory("./_site", {
     :url_ignore => [/linkedin.com/]
   }).run
 end
+
+desc "Publish to S3"
+task :publish => :build do
+  puts "Publishing to S3"
+  puts `s3_website push`
+  puts "Published"
+end
+
+task :default => [:test]
