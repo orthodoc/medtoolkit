@@ -1,4 +1,3 @@
-# require 'html-proofer'
 
 desc "Clean the old builds"
 task :clean do
@@ -24,9 +23,9 @@ task :test => [:build] do
 end
 
 desc "Publish to S3"
-task :publish => :build do
+task :publish do
   puts "Publishing to S3"
-  puts `s3_website push`
+  sh `s3_website push`
   puts "Published"
 end
 
