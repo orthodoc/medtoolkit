@@ -66,6 +66,7 @@ social:
 # Google settings
 google:
   tag_manager:
-    container_id: GTM-N7B9NJN
+    #container_id: GTM-N7B9NJN (AMP container)
+    container_id: GTM-MNSGF4R
   analytics:
     id: UA-88248597-1
