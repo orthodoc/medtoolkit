@@ -21,4 +21,5 @@ group :jekyll_plugins do
    gem 'jemoji'
    gem 'jekyll-seo-tag'
    gem 'jekyll-sitemap'
+   gem 'html-proofer'
 end
