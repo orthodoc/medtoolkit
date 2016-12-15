@@ -5,6 +5,4 @@ _site
 comments.html
 .env
 CNAME
-s3_website.yml
-_config_prod.yml
 node_modules
