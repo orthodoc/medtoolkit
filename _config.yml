@@ -14,7 +14,6 @@ bio: >
 author_image: "/assets/images/author.png"
 twitter_username: 0rthodoc
 github_username:  orthodoc
-ga: UA-88248597-1
 
 # Build settings
 markdown: kramdown
@@ -63,3 +62,10 @@ social:
     - https://in.linkedin.com/in/bdbaruah
     - https://plus.google.com/communities/112396621505218434918
     - https://github.com/orthodoc
+
+# Google settings
+google:
+  tag_manager:
+    container_id: GTM-N7B9NJN
+  analytics:
+    id: UA-88248597-1

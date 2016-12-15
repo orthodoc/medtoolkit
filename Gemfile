@@ -23,4 +23,5 @@ group :jekyll_plugins do
    gem 'jekyll-sitemap'
    gem 'html-proofer'
    gem 's3_website'
+   gem 'jekyll-google-tag-manager'
 end

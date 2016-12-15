@@ -1,24 +1,26 @@
 <head>
+  <!-- Google Tag manager code -->
+  {% gtm head %}
 
-<!-- Basic Page Needs -->
-<meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 
-<!-- Mobile Specific Metas -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- FONT -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,700" rel="stylesheet">
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,700" rel="stylesheet">
 
-<!-- CSS -->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
-<!-- Favicon -->
-<!--link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png"-->
+  <!-- Favicon -->
+  <!--link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png"-->
 
-{% seo %}
+  {% seo %}
 
 </head>
