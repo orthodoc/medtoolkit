@@ -10,7 +10,7 @@ cache: bundler
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: bundle exec rake -t
+script: rake test
 
 env:
   global:
