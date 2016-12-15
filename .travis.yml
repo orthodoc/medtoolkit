@@ -19,7 +19,7 @@ env:
 sudo: false # route your build to the container-based infrastructure for a faster build
 
 after_success:
-- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rake publish
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rake publish
 
 git:
   depth: 1
