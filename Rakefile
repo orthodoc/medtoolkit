@@ -1,3 +1,5 @@
+# require 'html-proofer'
+
 desc "Clean the old builds"
 task :clean do
   sh "bundle exec jekyll clean"
@@ -18,9 +20,7 @@ end
 
 desc "Test the build"
 task :test => [:build] do
-  HTMLProofer.check_directory("./_site", {
-    :url_ignore => [/linkedin.com/]
-  }).run
+  sh "htmlproofer --url-ignore \"/linkedin.com/\" ./_site"
 end
 
 desc "Publish to S3"
