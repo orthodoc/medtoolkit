@@ -25,7 +25,7 @@ end
 desc "Publish to S3"
 task :publish do
   puts "Publishing to S3"
-  sh "bundle exec s3_website push --headless"
+  sh "bundle exec s3_website push"
   puts "Published"
 end
 

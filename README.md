@@ -1,5 +1,51 @@
-# Jekyll + Skeleton CSS
+## Medtoolkit [![Build Status](https://travis-ci.org/orthodoc/medtoolkit.svg?branch=master)](https://travis-ci.org/orthodoc/medtoolkit)
 
-A very basic [Jekyll](http://jekyllrb.com/) site using the [Skeleton](http://getskeleton.com/) responsive CSS boilerplate.
+### Getting Started
 
-Excluding the optional web fonts, the example page weight is only one 7kB HTML file plus one 9kB CSS file. Multiple CSS files are concatenated together using includes, to minimize page requests. Add your own overrides and some inline SVGs or data URIs for an extremely fast site.
+To use this theme, it's just like using any other Jekyll template:
+
+*Step 1:* [Install Jekyll](https://jekyllrb.com/docs/installation/)
+
+*On windows*
+If on windows you will need the ruby devkit available here: [rubyinstaller](http://rubyinstaller.org/).
+
+*Step 2:* Clone this repo to your computer
+
+```bash
+git clone git@github.com:orthodoc/medtoolkit.git
+```
+
+*Step 3:* Run `gem install bundler; bundle install` inside the new `/medtoolkit/` folder that was just created to install the required ruby dependencies.
+
+*Step 4:* Tweak `_config.yml`.
+
+Just fill in everything in the `# Site settings` section.
+You'll want to set your site's title, your name, your twitter username, etc.
+
+*Step 5:* Run `bundle exec jekyll serve` and then open
+[http://localhost:4000/](http://localhost:4000/) to see your site!
+
+*Step 7:* Build the site
+
+- Clean up the folders: `bundle exec jekyll clean`
+- Build the site: `bundle exec jekyll build`
+
+*Step 6:* Publish your site
+[just like any other Jekyll site](https://jekyllrb.com/docs/deployment-methods/).
+Specifically for this project:
+
+- `mv s3_website.sample.yml s3_website.yml`
+- `mv .sample.env .env`
+- Fill in `s3_website.yml` and .env with production variables related to AWS S3 bucket
+- Push the site with: `s3_website push`
+
+### Notes:
+
+- Using travis to publish the site on build success
+
+- Using [Skeleton CSS](http://getskeleton.com/) responsive CSS boilerplate.
+  Excluding the optional web fonts, the example page weight is only one 7kB HTML file plus one 9kB CSS file. Multiple CSS files are concatenated together using includes, to minimize page requests. Add your own overrides and some inline SVGs or data URIs for an extremely fast site.
+
+### License
+
+MIT. See LICENSE file in repo.
