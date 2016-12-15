@@ -11,6 +11,7 @@
   },
   "engines": "5.11.1",
   "devDependencies": {
+    "normalize-scss": "^6.0.0",
     "skeleton-sass-official": "^3.0.2"
   }
 }
