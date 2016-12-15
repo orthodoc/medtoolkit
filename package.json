@@ -9,8 +9,6 @@
   "bugs": {
     "url": "https://github.com/medkit/issues"
   },
-  "license": "COMMERCIAL",
-  "private": true,
   "engines": "5.11.1",
   "devDependencies": {
     "skeleton-sass-official": "^3.0.2"
