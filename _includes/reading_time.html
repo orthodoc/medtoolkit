@@ -1,0 +1,17 @@
+<!--
+  Credit:
+    Carlos Becker: https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/
+-->
+<span class="reading-time">
+  {% assign words_per_min = 180 %}
+  {% if article %}
+    {% assign words = article.content | number_of_words %}
+  {% else page %}
+    {% assign words = content | number_of_words %}
+  {% endif %}
+  {% if words < (words_per_min * 2) %}
+    1 MIN READ
+  {% else %}
+    {{ words | divided_by:words_per_min }} MIN READ
+  {% endif %}
+</span>

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% include navbar.html %}
+
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="four columns offset-by-one">
+        <div class="sidecolumn">
+          <div class="badge">
+            <div class="twitter">
+              <a href="https://twitter.com/0rthodoc" class="twitter-follow-button" data-show-count="true">Follow Dr Biswajit</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="facebook">
+              <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedtoolkit&width=63&height=65&layout=button&size=small&show_faces=false&appId=713348755438723" width="63" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+            <div class="linkedin">
+              <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+              <script type="IN/FollowCompany" data-id="13241939" data-counter="right"></script>
+            </div>
+            <div class="addthis_inline_follow_toolbox"></div>
+          </div>
+          {% if site.articles[0] %}
+          <h5>Start with:</h5>
+          <ul>
+            {% for article in site.articles %}
+            <li>
+              <a href="{{ site.baseurl }}{{ article.url }}">
+                {{ article.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+      <div class="ten columns">
+        <div class="article-content">
+          <h3>{{ page.title }}</h3>
+          <div class="article-meta">
+            {% include reading_time.html %}
+          </div>
+          <div class="article">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

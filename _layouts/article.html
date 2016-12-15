@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% include navbar.html %}
+
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="four columns offset-by-one">
+        <div class="author-block u-pull-left">
+          <div class="author-image">
+            <img src="{{ site.author_image }}" alt="author image">
+          </div>
+          <div class="author-name">
+            <span>By:</span>
+            <span>{{ page.author }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="ten columns">
+        <div class="article-content">
+          <h3>{{ page.title }}</h3>
+          <div class="article-meta">
+            {% include reading_time.html %}
+          </div>
+          <div class="article">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

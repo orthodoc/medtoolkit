@@ -1,5 +1,5 @@
 ---
-  layout: default
+  layout: page
   title:
   permalink: /articles/
 ---
@@ -12,7 +12,7 @@
       <a href="{{ site.baseurl }}{{ article.url }}">
         {{ article.title }}
       </a> <span>•</span>
-      {% include read_time.html %}
+      {% include reading_time.html %}
     </li>
   {% endfor %}
 </ul>

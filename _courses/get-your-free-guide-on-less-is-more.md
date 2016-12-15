@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: course
 title: 7 part guide to Less is More
 seo:
   type: NewsArticle
 comments: true
+author: Dr Biswajit Baruah
 ---
 The number one frustration among doctors is -- Long working hours!
 
@@ -23,31 +24,34 @@ That is where I come into the picture. I was like this once upon a time. Rush to
 
 So don't flog yourself anymore. Beat the system. And come out strong. That is what I want for you. And this email course will be a guide for you to get there.
 
-Hear how some feel after taking the course:
+Hear how doctors feel after taking the course:
 
->> Thanks a lot for the advice and information. It was so real that I felt like someone has already told you what problem I face. --- Dr Mir
+{:.left-blockquote}
+>Thanks a lot for the advice and information. It was so real that I felt like someone has already told you what problem I face --- Dr Mir
 
->> Really enjoying this and looking forward to the next one already, keep them coming --- Dr Niba
+{:.right-blockquote}
+> Really enjoying this and looking forward to the next one already, keep them coming --- Dr Niba
 
->> That was quite quick and practical --- Dr Umang
+{:.left-blockquote}
+> That was quite quick and practical --- Dr Umang
 
->> Enjoying this Dr Biswajit and nodding away as I read every line --- Dr Murali
+{:.right-blockquote}
+> Enjoying this Dr Biswajit and nodding away as I read every line --- Dr Murali
 
->> Thank you for the inspiration --- Dr Matang
+{:.left-blockquote}
+> Thank you for the inspiration --- Dr Matang
 
 Here's a gist of what you will get when you sign up:
 
-  - Less is more
-  - Eliminate time-wasters
-  - The power of NO
-  - Understanding the 80/20 principle
-  - Slow down
+  - Less time or no time
+  - Be merciless with time wasters
+  - Saying no to save time
+  - Applying the 80/20 principle
+  - Slowing down
   - Writing it down
-  - Getting quality sleep
+  - Importance of sleeping well
 
 <script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
-
-Kill me if finishing this course doesn't save you time!! Joking, my friend. :-)
 
 Seriously, the small steps that you imbibe will save you lots of time --- quality time you can spend to grow your practice and spend with your family.
 

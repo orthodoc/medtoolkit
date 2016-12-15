@@ -22,6 +22,8 @@ kramdown:
 gems:
   - jekyll-feed
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
   courses:
@@ -41,3 +43,20 @@ exclude:
   - License
   - README.md
   - node_modules
+  - package.json
+  - index_old.html
+
+# seo
+author: Dr Biswajit Baruah
+twitter:
+  username: 0rthodoc
+facebook:
+  publisher: medtoolkit
+social:
+  name: Dr Biswajit Baruah
+  links:
+    - https://twitter.com/0rthodoc
+    - https://facebook.com/medtoolkit
+    - https://in.linkedin.com/in/bdbaruah
+    - https://plus.google.com/communities/112396621505218434918
+    - https://github.com/orthodoc
