@@ -32,7 +32,7 @@
 .content {
   p {
     padding: 0 1rem;
-    text-align: justify;
+    text-align: left;
   }
   .container {
     .sidecolumn {
@@ -84,7 +84,7 @@
         max-width: 40em;
         width: 100%;
         padding: 2em;
-        text-align: justify;
+        text-align: left;
         border-radius: 1em;
       }
     }
@@ -97,7 +97,7 @@
         color: $onyx;
         max-width: 40em;
         padding: 2em;
-        text-align: justify;
+        text-align: right;
         border-radius: 1em;
       }
     }
