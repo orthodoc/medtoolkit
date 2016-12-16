@@ -208,7 +208,6 @@
 }
 
 .footer {
-  border-top: 1px solid #e5e5e5;
   font-size: 1.2rem;
   color: $onyx;
   a {
@@ -216,7 +215,7 @@
   }
   .copyright-content {
     padding-top: 2rem;
-    padding-left: 1rem;
+    //padding-left: 1rem;
     text-align: center;
   }
   .madeby-content {
@@ -225,6 +224,9 @@
     .madeby {
       padding-right: 1rem;
     }
+  }
+  .footer-content {
+    border-top: 1px solid $anti-flash-white;
   }
 }
 
