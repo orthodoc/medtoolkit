@@ -183,7 +183,7 @@
 
 .article-content {
   h3 {
-    padding: 0 1rem;
+    padding: 2rem 1rem 0;
     font-weight: 700;
   }
   .article-meta {
@@ -245,6 +245,11 @@
 @media (min-width: 550px) {
   .nav {
     margin-bottom: 2rem;
+  }
+  .article-content {
+    h3 {
+      padding: 0 1rem;
+    }
   }
   .author-block {
     text-align: left;
