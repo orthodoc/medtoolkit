@@ -41,6 +41,9 @@ Hear how doctors feel after taking the course:
 {:.left-blockquote}
 > Thank you for the inspiration --- Dr Matang
 
+{:.right-blockquote}
+> Got down to doing it today. And eureka!! It says exactly what we doctors suffer from. I'm loving the snippets --- Dr Shishir
+
 Here's a gist of what you will get when you sign up:
 
   - Less time or no time
