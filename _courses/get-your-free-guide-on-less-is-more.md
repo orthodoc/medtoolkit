@@ -56,6 +56,6 @@ Here's a gist of what you will get when you sign up:
 
 <script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
 
-Seriously, the small steps that you imbibe will save you lots of time --- quality time you can spend to grow your practice and spend with your family.
+Seriously, the small steps that you imbibe will save you lots of time --- quality time you can use to grow your practice and be with your family.
 
 Hang around! There's more for you here. But make a start, not today, but now!
