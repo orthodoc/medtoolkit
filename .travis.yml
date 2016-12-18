@@ -26,4 +26,7 @@ git:
 
 notifications:
   email: false
-  slack: checkhealth:<%= ENV['SLACK_TOKEN'] %>
+  slack:
+    rooms:
+      - checkhealth:<%= ENV['SLACK_TOKEN'] %>
+    on_success: always
