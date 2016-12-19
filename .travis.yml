@@ -1,32 +1,29 @@
 language: ruby
 rvm:
 - 2.3.1
-
 before_script:
-  - npm install
-
+- npm install
 cache:
   bundler: true
   directories:
-    - node_modules
-
+  - node_modules
 script: rake test
-
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-sudo: false # route your build to the container-based infrastructure for a faster build
-
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
 after_success:
-  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rake publish
-
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rake
+  publish
 git:
-  depth: 1
-
+  depth: 3
+branches:
+  only:
+  - master
+  - stable
 notifications:
   email: false
   slack:
     rooms:
-      - checkhealth:<%= ENV['SLACK_TOKEN'] %>
+      secure: xAfbAesVRSekL66xyEgSlijvsEwsnIfzzMhYAS2LIZsyv8yiVm+EwzM7d24Jci5Iamcxq2DhdLGeSMYHs2PDCScfrK+HoCqRclUeM3LYULThIKxDiCFjnqazxEKFfwREZu7mJp74QqrUBEQw1pE38ehGDXi2eN3oZENhOFx8xs1S1LBLmRYThfv2KSqYwc2ERC+lWm3tmgtXkxfEM4G7ll5qkLY4MiUbLgeFQKtbdg5TKiRLe0seMCAq2ZUPBbL3t8LgqXzKDTABs7QVEhuET1YfZJSWI/qVF5tx7tpEQa7aTXAj7fQvsr1O7HIu5CQK/XLpMSsfQkdil9N4AmmHXqK8gLe/fI8QxkhU9Sr3qMF7fXavVgyY4CclKrI6s+g3FIBm/TfBrRaoUOXphYqQqmCdfSSY3zpw5ftALm2d3+nS9ISg40NsbvqLnfypkwAefIGH3fvEI3nNf3Uq28/uhj6CzgdT+1HSIjxoNC5+jglFBR7CobOuRLq9JVQkFBCwjcxcC8vDRRODNo2dYM9lnEA+vXbbJUL126y8HiMYg6ww1QYzk/gQpne//e0OwUYVPmzkwf5e/q06LhdXZBuLtLnxhHJ7s9JWCOkUXRPQGJTErFJ0kIHZuP6L+iLaXF1alrmJxAnu3FpCm4lUuyGc1k14y11lLymM7aWAKOlhicM=
     on_success: always
