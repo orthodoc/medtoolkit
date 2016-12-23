@@ -2,7 +2,7 @@
 layout: landing
 title: Home
 permalink: /
-cta-link: "/courses/get-your-free-guide-on-less-is-more"
+cta-link: "/courses/get-your-free-guide-on-time-managment"
 problem-title-one: Hate the long working hours?
 problem-title-two: Feel empty after a day's work.
 agitate-title: It Doesn't have to be that way
@@ -18,7 +18,7 @@ The world has transformed while you were busy consuming medical books and journa
 
 You don't have to tread the lonely path anymore! Welcome.
 
-[Start here.](/courses/get-your-free-guide-on-less-is-more)
+[Start here.](/courses/get-your-free-guide-on-time-managment)
 
 {% if site.articles[0] %}
 #### Articles that may interest you
