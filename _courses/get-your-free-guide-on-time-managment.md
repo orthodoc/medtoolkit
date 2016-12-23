@@ -1,6 +1,7 @@
 ---
 layout: course
-title: 7 part guide to Less is More
+title: 7 part guide to time management for doctors
+description: As a doctor, don't be frustrated with long working hours anymore.
 seo:
   type: NewsArticle
 comments: true
