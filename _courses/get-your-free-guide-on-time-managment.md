@@ -1,12 +1,14 @@
 ---
 layout: course
-title: 7 part guide to time management for doctors
+title: Time management for doctors
 description: As a doctor, don't be frustrated with long working hours anymore.
 seo:
   type: NewsArticle
 comments: true
 author: Dr Biswajit Baruah
 ---
+<script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
+
 The number one frustration among doctors is -- Long working hours!
 
 That is the sad state of affairs in healthcare. As an industry, we seem to have forgotten that we are human beings and not machines.
@@ -24,6 +26,8 @@ The good news is, you are not alone on this one. To solve any problem, the numbe
 That is where I come into the picture. I was like this once upon a time. Rush to work at 7 in the morning and return home at 9 in the night, totally worn out and devoid of all energy. I continued doing this believing I was a *Super Doctor*. Until I made conscious efforts to shake myself out of it. Now I am a [Hip Replacement Surgeon](https://goo.gl/EL8bqN), an [app developer](https://goo.gl/f5gbmt), [entrepreneur](http://www.linkedin.com/in/bdbaruah), an ultra marathoner and an aspiring writer. I could do all this and am itching to do more everyday because I freed myself from that badge of honor. I carved out time for myself.
 
 So don't flog yourself anymore. Beat the system. And come out strong. That is what I want for you. And this email course will be a guide for you to get there.
+
+Don't despair --- Get solid tips to save your precious time by clicking <a rel="ck_modal" href="#ck_modal">here.</a>
 
 Hear how doctors feel after taking the course:
 
@@ -58,8 +62,6 @@ Here's a gist of what you will get when you sign up:
   - Writing it down
   - Importance of sleeping well
 
-<script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
-
 Seriously, the small steps that you imbibe will save you lots of time --- quality time you can use to grow your practice and be with your family.
 
-Hang around! There's more for you here. But make a start, not today, but now!
+Hang around! There's more for you here. But make a start, not today, but now! Click <a rel="ck_modal" href="#ck_modal">here</a> to get started.
