@@ -16,9 +16,13 @@ twitter_username: 0rthodoc
 github_username:  orthodoc
 
 # Build settings
-markdown: kramdown
+markdown: KramdownBigfootnotes
 kramdown:
   parse_block_html: true
+  footnote_big: true
+  footnote_prefix: '['
+  footnote_suffix: ']'
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
 gems:
   - jekyll-feed
   - jemoji
