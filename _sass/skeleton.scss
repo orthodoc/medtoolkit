@@ -73,6 +73,9 @@
         }
       }
     }
+    .author-block {
+      color: #8a8a8a;
+    }
     .left-blockquote {
       text-align: left;
       padding-left: 0;
@@ -183,8 +186,10 @@
 
 .article-content {
   h3 {
-    padding: 2rem 1rem 0;
     font-weight: 700;
+  }
+  h3, h4 {
+    padding: 2rem 1rem 0;
   }
   .article-meta {
     padding: 1rem;
@@ -193,6 +198,10 @@
   }
   .article {
     padding-top: 3rem;
+    ol {
+      list-style-position: outside;
+      padding-left: 2.5rem;
+    }
     ul {
       li {
         list-style: none;
