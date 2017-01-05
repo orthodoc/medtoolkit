@@ -28,6 +28,7 @@ gems:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-picture-tag
 
 collections:
   courses:
@@ -74,3 +75,28 @@ google:
     container_id: GTM-MNSGF4R
   analytics:
     id: UA-88248597-1
+
+picture:
+  source: "assets/images/originals"
+  output: "images"
+  markup: "picture"
+  presets:
+    hero:
+      attr:
+        class: "u-max-full-width"
+        itemprop: "image"
+      ppi: [1]
+      source_1600:
+        media: "(min-width: 1600px)"
+        width: "1600"
+      source_1024:
+        media: "(min-width: 1024px)"
+        width: "1024"
+      source_768:
+        media: "(min-width: 768px)"
+        width: "768"
+      source_600:
+        media: "(min-width: 600px)"
+        width: "600"
+      source_default:
+        width: "320"

@@ -24,4 +24,5 @@ group :jekyll_plugins do
    gem 'html-proofer'
    gem 's3_website'
    gem 'jekyll-google-tag-manager'
+   gem 'jekyll-picture-tag'
 end
