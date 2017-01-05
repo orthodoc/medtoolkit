@@ -7,11 +7,12 @@ comments: true
 published: true
 tags: ['healthcare', 'personal', 'practice']
 author: Dr Biswajit
+image: trust.png
 ---
 
-A doctor does not just provide service to a patient.
+As a doctor you are not just providing service to a patient.
 
-It is a relationship that is build and secured over time. And the single factor that determines the fate of this tenuous relationship is --- *trust*.
+A relationship is built and secured over time. And the single factor that determines the fate of this tenuous relationship is --- *trust*.
 
 Trust triumphs over everything else.
 
