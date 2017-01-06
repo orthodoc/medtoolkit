@@ -19,16 +19,3 @@ The world has transformed while you were busy consuming medical books and journa
 You don't have to tread the lonely path anymore! Welcome.
 
 [Start here.](/courses/get-your-free-guide-on-time-managment)
-
-{% if site.articles[0] %}
-#### Articles that may interest you
-
-  <ul>
-  {% for article in site.articles limit: 3 %}
-    <li>
-      <a href="{{ site.baseurl }}{{ article.url }}">
-        {{ article.title }}
-      </a>
-    </li>
-  {% endfor %}
-{% endif %}
