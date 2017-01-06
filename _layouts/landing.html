@@ -16,6 +16,24 @@ layout: default
             {{ site.name }}
           </div>
         </div>
+        <div class="featured">
+          {% if site.articles[0] %}
+          <h5>Featured Articles</h5>
+            <ul>
+            {% for article in site.articles limit: 3 %}
+              {% if article.featured == true %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ article.url }}">
+                    {{ article.title }}
+                  </a>
+                </li>
+              {% else %}
+                We do not have a featured article yet! Come back later.
+              {% endif %}
+            {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>

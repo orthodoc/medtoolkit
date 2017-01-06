@@ -14,18 +14,24 @@ layout: default
             </div>
             <div class="addthis_inline_follow_toolbox"></div>
           </div>
-          {% if site.articles[0] %}
-          <h5>Start with:</h5>
-          <ul>
-            {% for article in site.articles %}
-            <li>
-              <a href="{{ site.baseurl }}{{ article.url }}">
-                {{ article.title }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-          {% endif %}
+          <div class="featured">
+            {% if site.articles[0] %}
+            <h5>Featured</h5>
+              <ul>
+              {% for article in site.articles limit: 3 %}
+                {% if article.featured == true %}
+                  <li>
+                    <a href="{{ site.baseurl }}{{ article.url }}">
+                      {{ article.title }}
+                    </a>
+                  </li>
+                {% else %}
+                  We do not have a featured article yet! Come back later.
+                {% endif %}
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
         </div>
       </div>
       <div class="ten columns">
