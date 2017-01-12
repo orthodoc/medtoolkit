@@ -39,6 +39,10 @@ collections:
     output: true
     permalink: /articles/:path/
     title: Articles
+  books:
+    output: true
+    permalink: /books/:path/
+    title: Books
 include: ["_pages"]
 exclude:
   - Gemfile
