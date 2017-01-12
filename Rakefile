@@ -1,4 +1,4 @@
-
+# Rake tasks
 desc "Clean the old builds"
 task :clean do
   sh "bundle exec jekyll clean"
@@ -32,7 +32,7 @@ end
 desc "Run a live server"
 task :serve do
   puts "Start a live server at 127.0.0.1:4000"
-  sh "bundle exec jekyll liveserve"
+  sh "bundle exec jekyll live"
 end
 
 task :default => [:test]
