@@ -32,7 +32,7 @@ end
 desc "Run a live server"
 task :serve do
   puts "Start a live server at 127.0.0.1:4000"
-  sh "bundle exec jekyll live"
+  sh "bundle exec jekyll liveserve"
 end
 
 task :default => [:test]
