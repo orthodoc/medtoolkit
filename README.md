@@ -24,19 +24,19 @@ git clone git@github.com:orthodoc/medtoolkit.git
 Just fill in everything in the `# Site settings` section.
 You'll want to set your site's title, your name, your twitter username, etc.
 
-*Step 6:* Run `bundle exec jekyll serve` and then open
+*Step 6:* Run `rake serve` and then open
 [http://localhost:4000/](http://localhost:4000/) to see your site!
 
 *Step 7:* Build the site
 
-- Clean up the folders: `bundle exec jekyll clean`
-- Build the site: `bundle exec jekyll build`
+- Clean up the folders: `rake clean`
+- Build the site: `rake build` Note that this will clean before building the site
 
 *Step 8:* Publish your site
 [just like any other Jekyll site](https://jekyllrb.com/docs/deployment-methods/).
 Specifically for this project:
 - Fill in `s3_website.yml` with production variables related to AWS S3 bucket
-- Push the site with: `s3_website push`
+- Push the site with: `rake publish`
 
 ### Notes:
 
