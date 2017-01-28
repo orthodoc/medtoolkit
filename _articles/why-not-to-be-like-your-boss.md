@@ -8,8 +8,8 @@ published: true
 tags: ['personal', 'practice', 'ceo']
 author: Dr Biswajit
 image:
-  file: trust.png
-  alt: quote on trust
+  file: boss.png
+  alt: image of a boss
 featured: true
 ---
 <script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
