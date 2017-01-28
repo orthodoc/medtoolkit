@@ -8,7 +8,7 @@ layout: default
     <div class="row">
       <div class="fourteen columns offset-by-one">
         <div class="hero-container">
-          {% picture hero {{ page.image }} alt="quote on trust" %}
+          {% picture hero {{ page.image.file }} alt="{{ page.image.alt }}" %}
         </div>
       </div>
       <div class="four columns offset-by-one">
@@ -25,7 +25,7 @@ layout: default
         <div class="article-content">
           <h3>{{ page.title }}</h3>
           <div class="article-meta">
-            {% include reading_time.html %}
+            {% include reading_time.html %} — Get tips and tricks to save time by clicking <a rel="ck_modal" href="#ck_modal">here</a>
           </div>
           <div class="article">
             {{ content }}
