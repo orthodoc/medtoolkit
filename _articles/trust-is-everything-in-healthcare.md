@@ -7,9 +7,12 @@ comments: true
 published: true
 tags: ['healthcare', 'personal', 'practice']
 author: Dr Biswajit
-image: trust.png
+image:
+  file: trust.png
+  alt: quote on trust
 featured: true
 ---
+<script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
 
 As a doctor you are not just providing service to a patient.
 
