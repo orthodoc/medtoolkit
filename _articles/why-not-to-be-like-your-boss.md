@@ -44,10 +44,6 @@ In effect, I am asking you to admit that your boss may not be the perfect exampl
 
 It gets better from this point if you are still with me. It you are going to pick the best principles from this special boss of yours, then what stops you from picking up the best from the so many other *bosses* in your life. That unique combination of your best self, and the best principles from all the great personalities that crossed your life is what you need to be, my friend. That's the real you. That's what will appeal to your patients. That's what you should strive to achieve. For when you do that, you will find your boss start to suffer from cryptomnesia.
 
-----
-
-{% include buy_book.html %}
-
 -----
 [^DrRao]: This is not the real name. I had my Dr Rao. I am sure you had one as well.
 [^vouch]: I do not know your boss personally. So there is no way I can vouch that his principles will not produce undesirable results! Follow them at your own risk.
