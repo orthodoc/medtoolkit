@@ -115,8 +115,13 @@
       margin-top: -4rem;
       padding-bottom: 4rem;
     }
-    .book-container {
-      //padding-top: 4rem!important;
+  }
+  .book-container {
+    .buy-button {
+      display: block;
+      width: 320px;
+      margin: auto;
+      text-align: center!important;
     }
   }
   .sidecolumn {
@@ -301,6 +306,20 @@
       text-align: right;
       .madeby {
         padding-right: 0;
+      }
+    }
+  }
+}
+
+/* Book page */
+.container {
+  .six.columns.offset-by-five {
+    text-align: center;
+    margin-bottom: 3rem;
+    picture {
+      img {
+        margin: 3rem 0;
+        // border: 1px solid $anti-flash-white;
       }
     }
   }

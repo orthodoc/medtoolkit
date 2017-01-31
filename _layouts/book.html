@@ -1,8 +1,29 @@
 ---
 layout: default
 ---
+<div class="container">
+  <div class="row">
+    <div class="six columns offset-by-five">
+      <div class="book-container">
+        {% picture {{ page.image.file }} alt={{ page.image.alt }} %}
+        {% include shopify_buy_button.html %}
+      </div>
+    </div>
+    <div class="twelve columns offset-by-two">
+      <div class="buy-book-box">
+        {{ content }}
+        <div class="u-pull-left">
+          {% include shopify_buy_button.html %}
+        </div>
+        <div class="u-pull-right">
+          {% include nope_button.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div class="content">
+<!--div class="content">
   <div class="container">
     <div class="row">
       <div class="fourteen columns offset-by-one book-container">
@@ -10,6 +31,6 @@ layout: default
       </div>
     </div>
   </div>
-</div>
+</div-->
 
 {% include footer.html %}
