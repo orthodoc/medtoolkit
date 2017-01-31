@@ -9,10 +9,11 @@ author: Dr Biswajit D Baruah
 image:
   file: operateCEO_3D.jpg
   alt: Image of the book
+gumroad_id: "LrRA"
 shopify:
   cart: "29297373185:1"
   channel: "buy_button"
-  button_text: "Buy Now"
+buy_button_text: "Buy Now"
 ---
 On buying the book you will have access to:
 
