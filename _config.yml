@@ -4,6 +4,7 @@ email: bdbaruah@orthodoc.in
 description: A Doctor's Ultimate Survival Guide in the Digital Space
 logo: "/assets/images/logo.png"
 baseurl: ""
+#url: "http://127.0.0.1:4000"
 url: "https://themedicaltoolkit.com"
 
 name: 'Dr. Biswajit Baruah'
@@ -85,7 +86,7 @@ picture:
   output: "images"
   markup: "picture"
   presets:
-    hero:
+    default:
       attr:
         class: "u-max-full-width"
         itemprop: "image"
