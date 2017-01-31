@@ -8,7 +8,7 @@ comments: false
 author: Dr Biswajit D Baruah
 image:
   file: operateCEO_3D.jpg
-  alt: "Image of the book"
+  alt: Image of the book
 shopify:
   cart: "29297373185:1"
   channel: "buy_button"
