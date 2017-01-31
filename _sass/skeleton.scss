@@ -56,8 +56,10 @@
       }
       ul {
         li {
-          list-style: none;
+          list-style: disc outside;
           text-decoration: none;
+          padding-left: 0rem;
+          text-indent: 0rem;
           a {
             text-decoration: none;
             color: $onyx;
@@ -65,11 +67,6 @@
           a:hover {
             color: $metallic-seaweed;
           }
-        }
-        li:before {
-          content: "•";
-          padding-right: 0.5rem;
-          color: $metallic-seaweed;
         }
       }
     }
@@ -124,6 +121,7 @@
       text-align: center!important;
     }
   }
+
   .sidecolumn {
     .featured {
       border-top: none;
@@ -138,15 +136,19 @@
     background-color: #fefefe;
     ul {
       li {
-        list-style: none;
-        margin-left: 0;
-      }
-      li:before {
-        content: "•";
-        padding: 0 1rem;
-        color: $onyx;
+        list-style: disc inside;
+        padding-left: 2em;
+        text-indent: -2em;
       }
     }
+  }
+}
+
+body > div.container > div > div.twelve.columns.offset-by-two > div > ul {
+  li {
+    list-style: disc inside;
+    padding-left: 3em;
+    text-indent: -2em;
   }
 }
 
@@ -236,12 +238,9 @@
     }
     ul {
       li {
-        list-style: none;
-      }
-      li:before {
-        content: "•";
-        padding: 0 1rem;
-        color: $onyx;
+        list-style: disc inside;
+        padding-left: 3em;
+        text-indent: -2em;
       }
     }
   }
