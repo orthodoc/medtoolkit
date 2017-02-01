@@ -23,6 +23,8 @@ On buying the book you will have access to:
 * Reasons why **digital presence** is mandatory today and the strategies to establish a strong digital presence.
 * A plan for **inbound strategies** with minimal expenses. Especially when everyone else is talking about outbound strategies (read spend huge sums of money in the order of thousands per month) to attract visitors to their practice.
 
+Comes with a **60-day money back guarantee**. Pick it up, read the book. If you don't like it, contact <a href="mailto:bdbaruah@orthodoc.in">me</a> for an instant refund. No questions asked. A plain and simple return of money spent. So you have nothing to lose.
+
 <!--blockquote class="embedly-card" data-card-key="b20e79d55aed469f96423223470ef94d">
   <h4>
     <a href="https://gum.co/LrRA">Operate Your Practice Like A CEO</a>

@@ -151,6 +151,15 @@ body > div.container > div > div.twelve.columns.offset-by-two > div > ul {
     text-indent: -2em;
   }
 }
+.container {
+  .six.columns.offset-by-five {
+    .book-container {
+      margin-top: 2rem;
+      //border-right: 1px solid $anti-flash-white;
+      //box-shadow: 1px 1px 10px 0 $anti-flash-white;
+    }
+  }
+}
 
 .banner {
   padding: 1em 0.5em;
@@ -306,6 +315,15 @@ body > div.container > div > div.twelve.columns.offset-by-two > div > ul {
       .madeby {
         padding-right: 0;
       }
+    }
+  }
+}
+
+/* Linkedin Badge */
+.content {
+  .five.columns {
+    .LI-profile-badge {
+      margin: 5rem 0;
     }
   }
 }
