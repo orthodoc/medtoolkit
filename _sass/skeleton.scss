@@ -330,15 +330,61 @@ body > div.container > div > div.twelve.columns.offset-by-two > div > ul {
 
 /* Book page */
 .container {
-  .six.columns.offset-by-five {
+  .eight.columns.offset-by-four {
     text-align: center;
-    margin-bottom: 3rem;
-    picture {
-      img {
-        margin: 3rem 0;
-        // border: 1px solid $anti-flash-white;
+    .book-container {
+      z-index: 90;
+      background: $white;
+      position: relative;
+      //overflow: hidden;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+      border-left: 2px solid $anti-flash-white;
+      border-right: 2px solid $anti-flash-white;
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.05);
+      picture {
+        img {
+          margin: 3rem 0;
+          // border: 1px solid $anti-flash-white;
+        }
       }
     }
+  }
+}
+
+/* Price tag */
+.tag-container {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+  right: -3px;
+  .tag-triangle {
+    border-color: transparent #36d7b7 transparent transparent;
+    border-style: solid;
+    border-width: 20px;
+    width: 0;
+    height: 0;
+    float: left;
+  }
+  .tag-rectangle {
+    background-color: #36d7b7;
+    width: 80px;
+    height: 40px;
+    display: inline;
+    float: right;
+    padding: 8px 0;
+    h7.price {
+      color: $onyx;
+      //font-size: 16px;
+      padding: 10px 0;
+      text-shadow: white 0px 0px 10px;
+    }
+  }
+  .tag-rectangle:hover h7.price span {
+    display: none;
+  }
+  .tag-rectangle:hover h7.price:after {
+    content: 'Feb 24';
   }
 }
 
