@@ -3,9 +3,16 @@ layout: default
 ---
 <div class="container">
   <div class="row">
-    <div class="six columns offset-by-five">
+    <div class="eight columns offset-by-four">
       <div class="book-container">
         {% picture {{ page.image.file }} alt="{{ page.image.alt }}" %}
+        <div class="tag-container">
+          <div class="tag-triangle">
+          </div>
+          <div class="tag-rectangle">
+            <h7 class="price"><span>Rs 799</span></h7>
+          </div>
+        </div>
         {% include buy_button.html %}
       </div>
     </div>
