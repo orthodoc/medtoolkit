@@ -342,6 +342,13 @@ body > div.container > div > div.twelve.columns.offset-by-two > div > ul {
   }
 }
 
+/* Button primary */
+.button.button-primary {
+  background-color: #36d7b7;
+  border-color: #36d7b7;
+  color: $onyx;
+}
+
 /* Larger than tablet */
 @media (min-width: 750px) {
   .container {
