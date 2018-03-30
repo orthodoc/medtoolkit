@@ -1,6 +1,6 @@
 ---
-title: The Medical Toolkit
-timezone: UTC
+title: HelloDr Blog
+timezone: Asia/Kolkata
 collections:
   articles:
     title: Articles
@@ -20,16 +20,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: bdbaruah@orthodoc.in
-description: A Doctor's Ultimate Survival Guide in the Digital Space
+email: bdbaruah@checkhealth.co
+description: Articles from the people behind HelloDr
 logo: "/assets/images/logo.png"
 baseurl: 
-url: https://themedicaltoolkit.com
-name: Dr. Biswajit Baruah
-bio: 'Hip Replacement Surgeon from Chennai. Developer of Diagnox mobile app. Wannabe
-  long distance runner.
-
-'
+url: https://blog.hellodr.net
+name: HelloDr Team
+bio: "\n"
 author_image: "/assets/images/author.png"
 twitter_username: 0rthodoc
 github_username: orthodoc
