@@ -23,7 +23,7 @@ collections:
 email: bdbaruah@orthodoc.in
 description: A Doctor's Ultimate Survival Guide in the Digital Space
 logo: "/assets/images/logo.png"
-baseurl: ''
+baseurl: 
 url: https://themedicaltoolkit.com
 name: Dr. Biswajit Baruah
 bio: 'Hip Replacement Surgeon from Chennai. Developer of Diagnox mobile app. Wannabe
@@ -91,15 +91,15 @@ picture:
       - 1
       source_1600:
         media: "(min-width: 1600px)"
-        width: '1600'
+        width: 1600
       source_1024:
         media: "(min-width: 1024px)"
-        width: '1024'
+        width: 1024
       source_768:
         media: "(min-width: 768px)"
-        width: '768'
+        width: 768
       source_600:
         media: "(min-width: 600px)"
-        width: '600'
+        width: 600
       source_default:
-        width: '320'
+        width: 320
