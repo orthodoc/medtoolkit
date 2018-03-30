@@ -1,17 +1,20 @@
 ---
-layout: article
 title: Why you should not be like your boss?
+tags:
+- personal
+- practice
+- ceo
+layout: article
 seo:
   type: article
 comments: true
-published: true
-tags: ['personal', 'practice', 'ceo']
 author: Dr Biswajit
 image:
   file: boss.png
   alt: image of a boss
 featured: true
 ---
+
 <script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
 
 Admit it right away! You want to be like your boss, isn't it?

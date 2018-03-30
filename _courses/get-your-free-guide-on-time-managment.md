@@ -1,12 +1,13 @@
 ---
-layout: course
 title: Time management for doctors
+layout: course
 description: As a doctor, don't be frustrated with long working hours anymore.
 seo:
   type: NewsArticle
 comments: true
 author: Dr Biswajit Baruah
 ---
+
 <script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
 
 The number one frustration among doctors is -- Long working hours!
