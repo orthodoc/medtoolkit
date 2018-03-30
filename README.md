@@ -12,7 +12,7 @@ If on windows you will need the ruby devkit available here: [rubyinstaller](http
 *Step 2:* Clone this repo to your computer
 
 ```bash
-git clone git@github.com:orthodoc/medtoolkit.git
+git clone git@github.com:checkhealthco/hdr-blog.git
 ```
 
 *Step 3:* Run `gem install bundler; bundle install` inside the new `/medtoolkit/` folder that was just created to install the required ruby dependencies.
