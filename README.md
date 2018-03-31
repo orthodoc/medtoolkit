@@ -1,4 +1,4 @@
-## Medtoolkit [![Build Status](https://travis-ci.org/orthodoc/medtoolkit.svg?branch=master)](https://travis-ci.org/orthodoc/medtoolkit)
+## hdr-blog [![Build Status](https://travis-ci.org/orthodoc/medtoolkit.svg?branch=master)](https://travis-ci.org/orthodoc/medtoolkit)
 
 ### Getting Started
 
@@ -15,7 +15,7 @@ If on windows you will need the ruby devkit available here: [rubyinstaller](http
 git clone git@github.com:checkhealthco/hdr-blog.git
 ```
 
-*Step 3:* Run `gem install bundler; bundle install` inside the new `/medtoolkit/` folder that was just created to install the required ruby dependencies.
+*Step 3:* Run `gem install bundler; bundle install` inside the new `/hdr-blog/` folder that was just created to install the required ruby dependencies.
 
 *Step 4:* Run `npm install` to install the skeleton sass and its dependencies.
 

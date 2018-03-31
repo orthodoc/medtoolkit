@@ -1,6 +1,6 @@
 ---
 title: Articles
-permalink: "/articles/"
+permalink: "/"
 layout: page
 ---
 

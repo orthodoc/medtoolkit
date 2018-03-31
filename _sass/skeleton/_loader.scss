@@ -11,8 +11,9 @@
 @import "themes/medkit/vars";
 
 // 5. import default theme styles
-@import "../../node_modules/skeleton-sass-official/skeleton/themes/fresh/base";
-@import "../../node_modules/skeleton-sass-official/skeleton/themes/fresh/skeleton";
+@import "../../node_modules/skeleton-sass-official/skeleton/themes/fresh/include_components";
+@import "../../node_modules/skeleton-sass-official/skeleton/themes/fresh/grid";
+@import "../../node_modules/skeleton-sass-official/skeleton/themes/fresh/vars";
 
 // 6. import extras to be used in skeleton.scss
 // @import "my/extra/_component.scss";
