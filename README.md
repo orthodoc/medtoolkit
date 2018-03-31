@@ -1,4 +1,4 @@
-## hdr-blog [![Build Status](https://travis-ci.org/orthodoc/medtoolkit.svg?branch=master)](https://travis-ci.org/orthodoc/medtoolkit)
+## hdr-blog [![Build Status](https://travis-ci.org/checkhealthco/hdr-blog.svg?branch=master)](https://travis-ci.org/checkhealthco/hdr-blog)
 
 ### Getting Started
 
