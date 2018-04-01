@@ -14,6 +14,7 @@ image:
   alt: quote on trust
 featured: true
 ---
+
 As a doctor you are not just providing service to a patient.
 
 A relationship is built and secured over time. And the single factor that determines the fate of this tenuous relationship is --- *trust*.
