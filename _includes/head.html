@@ -7,7 +7,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+  <meta name="author" content="{% if page.author.name %}{{ page.author.name }}{% else %}{{ site.author }}{% endif %}">
 
   <!-- Pininterest verfication meta -->
   <meta name="p:domain_verify" content="46e46e365ce6733e00b5a365dc28f5ec"/>
@@ -26,9 +26,7 @@
 
   {% seo %}
 
-  <!-- SumoMe script -->
-  <script src="//load.sumome.com/" data-sumo-site-id="939dac8f95b727812aac5d0cc18a00347c2092052ba43c5ff239613b30533b75" async="async"></script>
-
+  
   <!-- Embed.ly -->
   <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 

@@ -1,4 +1,4 @@
-## hdr-blog [![Build Status](https://travis-ci.org/checkhealthco/hdr-blog.svg?branch=master)](https://travis-ci.org/checkhealthco/hdr-blog)
+## hdr-blog [![Build Status](https://travis-ci.org/CheckHealthCo/hdr-blog.svg?branch=master)](https://travis-ci.org/CheckHealthCo/hdr-blog)
 
 ### Getting Started
 
