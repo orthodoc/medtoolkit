@@ -1,64 +1,62 @@
-# Site settings
-title: The Medical Toolkit
-email: bdbaruah@orthodoc.in
-description: A Doctor's Ultimate Survival Guide in the Digital Space
+---
+title: HelloDr Blog
+timezone: Asia/Kolkata
+collections:
+  articles:
+    title: Articles
+    output: true
+    permalink: "/articles/:path/"
+  books:
+    title: Books
+    output: true
+    permalink: "/books/:path/"
+  courses:
+    title: Courses
+    output: true
+    permalink: "/courses/:path/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: contact@hellodr.net
+description: Articles from the people behind HelloDr
 logo: "/assets/images/logo.png"
-baseurl: ""
-#url: "http://127.0.0.1:4000"
-url: "https://themedicaltoolkit.com"
-
-name: 'Dr. Biswajit Baruah'
-bio: >
-  Hip Replacement Surgeon from Chennai.
-  Developer of Diagnox mobile app.
-  Wannabe long distance runner.
+baseurl: 
+url: https://blog.hellodr.net
+name: HelloDr Team
+bio: "\n"
 author_image: "/assets/images/author.png"
 twitter_username: 0rthodoc
-github_username:  orthodoc
-
-# Build settings
+github_username: orthodoc
 markdown: KramdownBigfootnotes
 kramdown:
   parse_block_html: true
   footnote_big: true
-  footnote_prefix: '['
-  footnote_suffix: ']'
+  footnote_prefix: "["
+  footnote_suffix: "]"
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 gems:
-  - jekyll-feed
-  - jemoji
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-picture-tag
-
-collections:
-  courses:
-    output: true
-    permalink: /courses/:path/
-    title: Courses
-  articles:
-    output: true
-    permalink: /articles/:path/
-    title: Articles
-  books:
-    output: true
-    permalink: /books/:path/
-    title: Books
-include: ["_pages"]
+- jekyll-feed
+- jemoji
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-picture-tag
+include:
+- _pages
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - s3_website_sample.yml
-  - s3_website.yml
-  - License
-  - README.md
-  - node_modules
-  - package.json
-  - index_old.html
-  - Rakefile
-  - vendor
-
-# seo
+- Gemfile
+- Gemfile.lock
+- s3_website_sample.yml
+- s3_website.yml
+- License
+- README.md
+- node_modules
+- package.json
+- index_old.html
+- Rakefile
+- vendor
 author: Dr Biswajit Baruah
 twitter:
   username: 0rthodoc
@@ -67,41 +65,38 @@ facebook:
 social:
   name: Dr Biswajit Baruah
   links:
-    - https://twitter.com/0rthodoc
-    - https://facebook.com/medtoolkit
-    - https://in.linkedin.com/in/bdbaruah
-    - https://plus.google.com/communities/112396621505218434918
-    - https://github.com/orthodoc
-
-# Google settings
+  - https://twitter.com/0rthodoc
+  - https://facebook.com/medtoolkit
+  - https://in.linkedin.com/in/bdbaruah
+  - https://plus.google.com/communities/112396621505218434918
+  - https://github.com/orthodoc
 google:
   tag_manager:
-    #container_id: GTM-N7B9NJN (AMP container)
     container_id: GTM-MNSGF4R
   analytics:
     id: UA-88248597-1
-
 picture:
-  source: "assets/images/originals"
-  output: "images"
-  markup: "picture"
+  source: assets/images/originals
+  output: images
+  markup: picture
   presets:
     default:
       attr:
-        class: "u-max-full-width"
-        itemprop: "image"
-      ppi: [1]
+        class: u-max-full-width
+        itemprop: image
+      ppi:
+      - 1
       source_1600:
         media: "(min-width: 1600px)"
-        width: "1600"
+        width: 1600
       source_1024:
         media: "(min-width: 1024px)"
-        width: "1024"
+        width: 1024
       source_768:
         media: "(min-width: 768px)"
-        width: "768"
+        width: 768
       source_600:
         media: "(min-width: 600px)"
-        width: "600"
+        width: 600
       source_default:
-        width: "320"
+        width: 320

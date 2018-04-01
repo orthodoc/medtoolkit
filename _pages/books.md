@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Books
-permalink: /books/
+permalink: "/books/"
+layout: page
 ---
+
 <ul class="article-list">
   {% for book in site.books %}
     <li>

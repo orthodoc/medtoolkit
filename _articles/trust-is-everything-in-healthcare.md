@@ -1,19 +1,19 @@
 ---
-layout: article
 title: The importance of trust in healthcare
+tags:
+- healthcare
+- personal
+- practice
+layout: article
 seo:
   type: article
 comments: true
-published: true
-tags: ['healthcare', 'personal', 'practice']
-author: Dr Biswajit
+author: bdb
 image:
   file: trust.png
   alt: quote on trust
 featured: true
 ---
-<script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
-
 As a doctor you are not just providing service to a patient.
 
 A relationship is built and secured over time. And the single factor that determines the fate of this tenuous relationship is --- *trust*.
@@ -52,9 +52,9 @@ Working on developing trust takes time and effort. Results are not immediate. Bu
 
 -----
 
-[^EurPub2006-1]: A detailed study on the mechanism of trust in: *Trust relations in health care---the new agenda available* at [The European Journal of Public Health](http://dx.doi.org/10.1093/eurpub/ckl004).
+[^EurPub2006-1]: A detailed study on the mechanism of trust in: *Trust relations in health care---the new agenda available* at The European Journal of Public Health.
 [^DavidShore]: David Shore, Harvard School of Health stated --- Trust is the currency of all commerce.
-[^MichaelGreen1]: [The Trusted Advisor](http://amzn.to/2iCNQf4) - book by Michael Green and others elaborating on the importance of trust in business transactions. Several articles on the topic at [Trusted Advisor website](http://trustedadvisor.com/).
+[^MichaelGreen1]: The Trusted Advisor - book by Michael Green and others elaborating on the importance of trust in business transactions. Several articles on the topic at Trusted Advisor website.
 [^MichaelGreen2]: Michael Green calls it the *Kiss of death* for trust in the The Trusted Advisor.
 [^MichaelGreen3]: Michael Green calls it the Trust Equation. (Credibility + Reliablitly + Intimacy ) / Self-orientation.
 [^InfoAsymmetry]: [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) is a key concept in economics. This concept assumes that one party has acess to more information than the other. This causes an imbalance of power in transactions, which can ultimately cause transactions to go bust.

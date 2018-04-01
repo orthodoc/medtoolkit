@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% include navbar.html %}
 
 <div class="content">
@@ -12,12 +13,13 @@ layout: default
         </div>
       </div>
       <div class="four columns offset-by-one">
+        {% assign author = site.data.authors[page.author] %}
         <div class="author-block u-pull-left">
           <div class="author-image">
-            <img src="{{ site.author_image }}" alt="author image">
+            <img src="{{ author.image }}" alt="author image">
           </div>
           <div class="author-name">
-            <span>By {{ page.author }}</span>
+            <span>By {{ author.name }}</span>
           </div>
         </div>
       </div>
@@ -25,7 +27,7 @@ layout: default
         <div class="article-content">
           <h3>{{ page.title }}</h3>
           <div class="article-meta">
-            {% include reading_time.html %} — Get tips and tricks to save time by clicking <a rel="ck_modal" href="#ck_modal">here</a>
+            {% include reading_time.html %} — Get tips and tricks delivered to your inbox by subscribing to our newsletter
           </div>
           <div class="article">
             {{ content }}
