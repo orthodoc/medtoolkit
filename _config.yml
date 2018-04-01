@@ -20,7 +20,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: bdbaruah@checkhealth.co
+email: contact@hellodr.net
 description: Articles from the people behind HelloDr
 logo: "/assets/images/logo.png"
 baseurl: 

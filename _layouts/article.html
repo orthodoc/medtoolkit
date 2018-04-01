@@ -13,12 +13,13 @@ layout: default
         </div>
       </div>
       <div class="four columns offset-by-one">
+        {% assign author = site.data.authors[page.author] %}
         <div class="author-block u-pull-left">
           <div class="author-image">
-            <img src="{{ site.author_image }}" alt="author image">
+            <img src="{{ author.image }}" alt="author image">
           </div>
           <div class="author-name">
-            <span>By {{ page.author }}</span>
+            <span>By {{ author.name }}</span>
           </div>
         </div>
       </div>

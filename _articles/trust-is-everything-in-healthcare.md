@@ -8,15 +8,12 @@ layout: article
 seo:
   type: article
 comments: true
-author: Dr Biswajit
+author: bdb
 image:
   file: trust.png
   alt: quote on trust
 featured: true
 ---
-
-<script async id="_ck_130134" src="https://forms.convertkit.com/130134?v=6"></script>
-
 As a doctor you are not just providing service to a patient.
 
 A relationship is built and secured over time. And the single factor that determines the fate of this tenuous relationship is --- *trust*.
