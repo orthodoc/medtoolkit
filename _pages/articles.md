@@ -1,8 +1,9 @@
 ---
-  layout: page
-  title: Articles
-  permalink: /articles/
+title: Articles
+permalink: "/"
+layout: page
 ---
+
 <ul class="article-list">
   {% for article in site.articles %}
     <li>

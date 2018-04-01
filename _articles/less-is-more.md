@@ -1,12 +1,16 @@
 ---
-layout: article
 title: Less is more
+published: false
+tags:
+- personal
+- productivity
+- philosophy
+layout: article
 seo:
   type: Article
 comments: true
-published: false
-tags: ['personal', 'productivity', 'philosophy']
 ---
+
 <!--amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/600/300/sports"></amp-img-->
 
 It's a *chaotic world* out there. And you have innumerable tasks to finish as you start your day. Do you rush to begin one as you finish the other? Do you start wondering about the previous task as you get onto the next one? No wonder so many of us feel *rushed* through the day.

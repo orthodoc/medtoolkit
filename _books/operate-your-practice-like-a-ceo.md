@@ -1,6 +1,6 @@
 ---
-layout: book
 title: Operate your practice like a CEO
+layout: book
 description: Key strategies on professional growth for doctors
 seo:
   type: NewsArticle
@@ -9,12 +9,13 @@ author: Dr Biswajit D Baruah
 image:
   file: operateCEO_3D.jpg
   alt: Image of the book
-gumroad_id: "LrRA"
+gumroad_id: LrRA
 shopify:
-  cart: "29297373185:1"
-  channel: "buy_button"
-buy_button_text: "Buy Now"
+  cart: '29297373185:1'
+  channel: buy_button
+buy_button_text: Buy Now
 ---
+
 On buying the book you will have access to:
 
 * **21 key strategies** to boost your professional practice in an efficient and transparent manner
