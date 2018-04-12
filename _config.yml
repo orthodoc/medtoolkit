@@ -9,7 +9,7 @@ collections:
   shorts:
     title: Shorts
     output: true
-    permalink: "/shorts/:path"
+    permalink: "/shorts/:path/"
   books:
     title: Books
     output: false

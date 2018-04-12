@@ -23,7 +23,7 @@ task :test => [:build] do
 end
 
 desc "Publish to S3"
-task :publish do
+task :publish => [:build] do
   puts "Publishing to S3"
   sh "bundle exec s3_website push"
   puts "Published"
