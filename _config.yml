@@ -6,9 +6,13 @@ collections:
     title: Articles
     output: true
     permalink: "/articles/:path/"
+  shorts:
+    title: Shorts
+    output: true
+    permalink: "/shorts/:path/"
   books:
     title: Books
-    output: true
+    output: false
     permalink: "/books/:path/"
   courses:
     title: Courses
