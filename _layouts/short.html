@@ -9,9 +9,7 @@ layout: default
     <div class="row">
       <div class="fourteen columns offset-by-one">
         <div class="hero-container">
-          {% if page.image %}
           {% picture hero {{ page.image.file }} alt="{{ page.image.alt }}" %}
-          {% endif %}
         </div>
       </div>
       <div class="four columns offset-by-one">
