@@ -14,7 +14,7 @@ image:
   alt: electron miscroscope image of nerve ending
 featured: true
 ---
-This is a pretty common scenario in practice --- Lakshmi has been seeing you for a deep nagging couch that is not responding to antibiotics. You realise that she needs to be sent to a higher center. You are in a hurry for there are ten others jostling at your door eager to get into the clinic. You quickly put down a few sentences addressing a letter to the specialist or maybe you have just about enough time to scribble together a note on a pad. You tear out the page, and hand it out to Lakshmi so that you can move onto the next one in line. And even before the patient has stepped out of your clinic, for you the matter is settled. Done! 
+This is a pretty common scenario in practice --- Lakshmi has been seeing you for a deep nagging cough that is not responding to antibiotics. You realise that she needs to be sent to a higher center. You are in a hurry for there are ten others jostling at your door eager to get into the clinic. You quickly put down a few sentences addressing a letter to the specialist or maybe you have just about enough time to scribble together a note on a pad. You tear out the page, and hand it out to Lakshmi so that you can move onto the next one in line. And even before the patient has stepped out of your clinic, for you the matter is settled. Done! 
 
 For you this was a routine referral or handover to another doctor. But *did you*? A handover is complete only when the other doctor accepts your referral and initiates treatment.
 
