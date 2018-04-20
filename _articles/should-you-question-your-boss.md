@@ -24,10 +24,10 @@ Or maybe you could make a start by asking questions. *How* big is the box? Is it
 
 That was my first introduction to the [5W’s and H](https://en.wikipedia.org/wiki/Five_Ws). Immortalized by Rudyard Kipling in his poem *The Elephant’s Child*:
 
->>I keep six honest serving-men
->>They taught me all I knew
->>Their names are What and Why and When 
->>And How and Where and Who
+>I keep six honest serving-men
+>They taught me all I knew
+>Their names are What and Why and When 
+>And How and Where and Who
 
 Answers are not given but discovered. Answers owe their existence to questions. The most important skill that a student could pick up at school is to question anything and everything.
 
@@ -35,7 +35,7 @@ Medical literature is abound with studies that start with a hypothesis. Sounds l
 
 *So why should it be any different when you are questioning your boss?*
 
-The problem is acute in hierarchical societies. Most cleverly put forth by [Malcolm Gladwell](https://en.wikipedia.org/wiki/Malcolm_Gladwell) in The Ethnic Theory of Plane Crashes from the book [Outliers](https://www.youtube.com/watch?v=nXCWF60jWvo). He explains in detail how the plane’s first officer failed to communicate decisively to the captain in spite of having noticed an issue sometime earlier resulting in the plane crashing. The author’s contention here being that out of respect for his superior he failed to effectively communicate to the captain thus failing to avert the crash. This theory has been refuted effectively by TK (Ask a Korean) in a blog post. Obviously culturalism cannot be the only reason behind a plane crash!!
+The problem is acute in hierarchical societies. Most cleverly put forth by [Malcolm Gladwell](https://en.wikipedia.org/wiki/Malcolm_Gladwell) in The Ethnic Theory of Plane Crashes from the book [Outliers](https://www.youtube.com/watch?v=nXCWF60jWvo). He explains in detail how the plane’s first officer failed to communicate decisively to the captain in spite of having noticed an issue sometime earlier resulting in the plane crashing. The author’s contention here being that out of respect for his superior he failed to effectively communicate to the captain thus failing to avert the crash. This theory has been refuted effectively by [TK (Ask a Korean)](https://www.blogger.com/profile/07663422474464557214) in a [blog post](http://askakorean.blogspot.hk/2013/07/culturalism-gladwell-and-airplane.html). Obviously culturalism cannot be the only reason behind a plane crash!!
 
 But there’s no denying that questioning your boss in such societies is not taken lightly. The question is often read as questioning their authority, even when it is not meant to. And when superiors read it that way, the response is often not an answer.
 
