@@ -9,9 +9,7 @@ layout: default
     <div class="row">
       <div class="fourteen columns offset-by-one">
         <div class="hero-container">
-          {% if page.image %}
           {% picture hero {{ page.image.file }} alt="{{ page.image.alt }}" %}
-          {% endif %}
         </div>
       </div>
       <div class="four columns offset-by-one">
@@ -29,7 +27,7 @@ layout: default
         <div class="article-content">
           <h3>{{ page.title }}</h3>
           <div class="article-meta">
-            {% include reading_time.html %} — {% include lead_form_link.html %}
+            {% include reading_time.html %} — Get tips and tricks delivered to your inbox by subscribing to our newsletter
           </div>
           <div class="article">
             {{ content }}

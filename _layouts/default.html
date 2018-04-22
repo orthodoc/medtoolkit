@@ -6,7 +6,17 @@
   <body>
     {% gtm body %}
     {{ content }}
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5850964e6a3c6aa7"></script>
+    {% assign author = site.data.authors[page.author] %}
+    <!-- Convertkit Start -->
+    <script async id="_ck_{{author.ck-lead-form}}" src="https://forms.convertkit.com/{{author.ck-lead-form}}?v=7"></script>
+    <!-- Convertkit End -->
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous">
+    </script>
+    <!-- end Jquery --> 
   </body>
 
 </html>

@@ -2,15 +2,24 @@
 
 // Add custom styles here
 .nav {
+  background-color: $blue;
+  max-height: 8rem;
   .navbar {
-    border-bottom: 1px solid $anti-flash-white;
+    padding-bottom: 1rem;
+    //border-bottom: 1px solid $blue;
+    .page-links {
+      padding-top: 3rem;
+      a {
+        color: #ffffff;
+      }
+    }
   }
   padding: 1rem 0 1rem 0.5rem;
   .logo {
     text-align: right;
     width: auto;
     img {
-      width: 60px;
+      width: 6rem;
       margin-bottom: 0.5rem;
     }
   }
@@ -109,8 +118,8 @@
       font-family: $font-family;
     }
     .hero-container {
-      margin-top: -4rem;
-      padding-bottom: 4rem;
+      //margin-top: -2rem;
+      padding-bottom: 1rem;
     }
   }
   .book-container {
@@ -293,7 +302,7 @@ body > div.container > div > div.twelve.columns.offset-by-two > div > ul {
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   .nav {
-    margin-bottom: 2rem;
+    //margin-bottom: 2rem;
   }
   .article-content {
     h3 {
