@@ -6,21 +6,10 @@
   <body>
     {% gtm body %}
     {{ content }}
-    <!-- Drip -->
-    <script type="text/javascript">
-      var _dcq = _dcq || [];
-      var _dcs = _dcs || {};
-      _dcs.account = '9502493';
-
-      (function() {
-        var dc = document.createElement('script');
-        dc.type = 'text/javascript'; dc.async = true;
-        dc.src = '//tag.getdrip.com/9502493.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(dc, s);
-      })();
-    </script>
-    <!-- end Drip -->
+    {% assign author = site.data.authors[page.author] %}
+    <!-- Convertkit Start -->
+    <script async id="_ck_{{author.ck-lead-form}}" src="https://forms.convertkit.com/{{author.ck-lead-form}}?v=7"></script>
+    <!-- Convertkit End -->
     <!-- Jquery -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
